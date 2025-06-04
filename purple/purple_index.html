@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Labs Mobile App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-transition"></div>
+  <div class="iphone-container">
+    <div class="iphone">
+      <div class="notch"></div>
+      <div class="screen">
+        <header>
+          <div class="logo">
+            <a href="/index.html" class="transition-link">
+              <img src="img/logo.png" alt="Fashion Labs Logo" class="logo-img">
+            </a>
+          </div>
+          <div class="yonder">
+            <img src="img/yonder.png" alt="Yonder Logo" class="yonder-logo">
+          </div>
+          <div class="menu-icon">
+            <!-- Custom animated plus icon -->
+            <div class="custom-plus-icon" id="menuToggle">
+              <span class="plus-line horizontal"></span>
+              <span class="plus-line vertical"></span>
+            </div>
+          </div>
+        </header>
+        
+        <!-- Navigation menu overlay -->
+        <div class="nav-menu" id="navMenu">
+          <div class="nav-menu-content">
+            <ul class="nav-links">
+              <li><a href="#">HOME</a></li>
+              <li><a href="meeloopdag.html">MEELOOPDAG</a></li>
+              <li><a href="#">PROGRAMMA</a></li>
+              <li><a href="#">MODESHOW</a></li>
+              <li><a href="#">NIEUWS</a></li>
+              <li><a href="#">FAVORIETEN</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="nav-logos">
+              <div class="fashion-labs-nav-logo">
+                <img src="img/logo.png" alt="Fashion Labs Logo" class="nav-logo">
+              </div>
+              <div class="yonder-nav-logo">
+                <img src="img/yonder.png" alt="Yonder Logo" class="nav-logo">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="app-content">
+          <div class="hero-section">
+            <img src="img/hero.png" alt="" class="main-picture">
+            <button class="action-button">PROGRAMMA</button>
+          </div>
+          
+          <div class="nieuws-section">
+            <br>
+            <h2>NIEUWS</h2>
+            
+            <!-- Slideshow vervangt de Modeshow afbeelding -->
+            <div class="slideshow-container">
+              <div class="slideshow">
+                <div class="slide">
+                  <img src="img/slideshow nieuws/1.png" alt="Fashion Labs Slide 1">
+                </div>
+                <div class="slide">
+                  <img src="img/slideshow nieuws/2.png" alt="Fashion Labs Slide 2">
+                </div>
+                <div class="slide">
+                  <img src="img/slideshow nieuws/3.png" alt="Fashion Labs Slide 3">
+                </div>
+                <div class="slide">
+                  <img src="img/slideshow nieuws/4.png" alt="Fashion Labs Slide 4">
+                </div>
+                <div class="slide">
+                  <img src="img/slideshow nieuws/5.png" alt="Fashion Labs Slide 5">
+                </div>
+              </div>
+              
+              <div class="dots-container">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="Opleiding-section">
+            <br>
+            <h2>OPLEIDINGEN</h2>
+            
+            <div class="FashionDesigner-BOL">
+              <h2>Fashion Designer BOL</h2> 
+              <img src="img/plus icon white.svg" alt="Plus Icon" class="plus-icon-img fashion-designer-plus">
+              <div class="blokje1"></div>
+              <div class="blokje2"></div>
+              <div class="blokje3"></div>
+
+              <p class="opleiding-description">
+                Tijdens het basisdeel van deze fashion designer opleiding breng je de modewereld in.
+              </p>
+            </div>
+
+            <div class="Fashion-Tailor">
+              <h2>Fashion-Tailor</h2>
+              <img src="img/plus icon white.svg" alt="Plus Icon" class="plus-icon-img fashion-tailor-plus">
+              <div class="blokje1"></div>
+              <div class="blokje2"></div>
+              <div class="blokje3"></div>
+
+              <p class="opleiding-description">
+                Tijdens het basisdeel van deze Fashion Tailor opleiding breng je de modewereld in beeld en...
+              </p>
+            </div>
+
+
+            <div class="Basismedewerker-BOLs">
+              <h2>Basismedewerker-BOL</h2>
+              <img src="img/plus icon white.svg" alt="Plus Icon" class="plus-icon-img basismedewerker-plus">
+              <div class="blokje1"></div>
+              <div class="blokje2"></div>
+              <div class="blokje3"></div>
+
+              <p class="opleiding-description">
+                Kun jij netjes werken en heb je gevoel voor stijl? Dan zit de opleiding Basismedewerker...
+              </p>
+            </div>
+
+          </div>
+          
+          <div class="aanmelden-section">
+            <div class="overlay-header"></div>
+            <div class="aanmelden">
+                <img src="img/aanmelden.png" alt="aanmelden foto" class="aanmelden-foto">
+                <button class="aanmelden-button">AANMELDEN</button> 
+            </div>
+            <div class="aanmelden-geheel">
+              <h2>MEELOOPDAG</h2>
+              <p class="meeloopdagtext">
+                Wil jij ervaren hoe het is om bij ons te studeren? Loop een dag mee! Volg de lessen, ontmoet studenten en ontdek of de opleiding bij je past.
+              </p>
+            </div>
+          </div>
+        </div>
+            
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-nav">
+              <ul>
+                <li><span class="plus-icon">+</span> <a href="#">Voor studenten</a></li>
+                <li><span class="plus-icon">+</span> <a href="#">Voor volwassenen</a></li>
+                <li><span class="plus-icon">+</span> <a href="#">Voor bedrijven</a></li>
+                <li><span class="plus-icon">+</span> <a href="#">Over FashionLabs</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-logos">
+              <div class="fashion-labs-logo">
+                <img src="img/fashionlabs.png" alt="Fashion Labs Logo" class="fashion-labs-logo-img">
+              </div>
+              
+              <div class="yonder-logo">
+                <img src="img/yonder.png" alt="Yonder Logo" class="yonder-logo-img">
+              </div>
+            </div>
+          </div>
+          
+          <div class="back-to-top-container">
+            <button id="backToTop" class="back-to-top">Terug naar boven</button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="slideshow.js"></script>
+  <script src="menu.js"></script>
+  <script src="transitions.js"></script>
+</body>
+</html>

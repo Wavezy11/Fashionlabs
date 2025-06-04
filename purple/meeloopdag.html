@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Labs - Meeloopdag</title>
+  <link rel="stylesheet" href="meeloopdag.css">
+</head>
+<body>
+  <div class="page-transition"></div>
+  <div class="iphone-container">
+    <div class="iphone">
+      <div class="notch">
+        <div class="status-bar">
+          <div class="status-left">
+            <div class="time">9:41</div>
+          </div>
+          <div class="status-right">
+            <div class="signal">●●●●</div>
+            <div class="wifi">●</div>
+            <div class="battery">●</div>
+          </div>
+        </div>
+      </div>
+      <div class="screen">
+        <header>
+          <div class="menu-icon">
+            <div class="custom-plus-icon" id="menuToggle">
+              <span class="plus-line horizontal"></span>
+              <span class="plus-line vertical"></span>
+            </div>
+          </div>
+          <div class="logo">
+            <a href="/purple/purple_index.html" class="transition-link">
+              <img src="img/logo.png" alt="Fashion Labs Logo" class="logo-img">
+            </a>
+          </div>
+          <div class="yonder">
+            <img src="img/yonder.png" alt="Yonder Logo" class="yonder-logo">
+          </div>
+        </header>
+        
+        <!-- Navigation menu overlay -->
+        <div class="nav-menu" id="navMenu">
+          <div class="nav-menu-content">
+            <ul class="nav-links">
+              <li><a href="/purple/purple_index.html">HOME</a></li>
+              <li><a href="#">MEELOOPDAG</a></li>
+              <li><a href="#">PROGRAMMA</a></li>
+              <li><a href="#">MODESHOW</a></li>
+              <li><a href="#">NIEUWS</a></li>
+              <li><a href="#">FAVORIETEN</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="nav-logos">
+              <div class="fashion-labs-nav-logo">
+                <img src="img/logo.png" alt="Fashion Labs Logo" class="nav-logo">
+              </div>
+              <div class="yonder-nav-logo">
+                <img src="img/yonder.png" alt="Yonder Logo" class="nav-logo">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="app-content">
+          <div class="meeloopdag-content">
+            <h1>MEELOOPDAG</h1>
+            
+            <div class="meeloopdag-image-container">
+              <!-- <img src="img/meeloopdag.png" alt="Studenten bij Fashion Labs" class="meeloopdag-image"> -->
+            </div>
+            
+            <div class="meeloopdag-info">
+              <p>
+                Wil jij ervaren hoe het is om bij ons te studeren? Loop een dag mee! 
+                Volg de lessen, ontmoet studenten en ontdek of de opleiding bij je past.
+              </p>
+            </div>
+              
+            <div class="registration-form">
+              <div class="form-row">
+                <input type="text" placeholder="Voornaam*" class="form-input" required>
+                <input type="text" placeholder="Tussenvoegsel" class="form-input">
+              </div>
+              <input type="text" placeholder="Achternaam*" class="form-input full-width" required>
+              <input type="email" placeholder="Email*" class="form-input full-width" required>
+              <input type="tel" placeholder="Mobiele Telefoonnummer" class="form-input full-width">
+              
+              <button class="registreer-button">REGISTREER</button>
+            </div>
+            
+            <div class="checkered-pattern"></div>
+          </div>
+        </div>
+        
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-nav">
+              <ul>
+                <li><span class="plus-icon">+</span> <a href="#">Voor studenten</a></li>
+                <li><span class="plus-icon">+</span> <a href="#">Voor volwassenen</a></li>
+                <li><span class="plus-icon">+</span> <a href="#">Voor bedrijven</a></li>
+                <li><span class="plus-icon">+</span> <a href="#">Over FashionLabs</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-logos">
+              <div class="fashion-labs-logo">
+                <img src="img/fashionlabs.png" alt="Fashion Labs Logo" class="fashion-labs-logo-img">
+              </div>
+              
+              <div class="yonder-logo">
+                <img src="img/yonder.png" alt="Yonder Logo" class="yonder-logo-img">
+              </div>
+            </div>
+          </div>
+          
+          <div class="back-to-top-container">
+            <button id="backToTop" class="back-to-top">Terug naar boven</button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="slideshow.js"></script>
+  <script src="menu.js"></script>
+  <script src="transitions.js"></script>
+</body>
+</html>
